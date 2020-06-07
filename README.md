@@ -5,7 +5,7 @@ Loads npm & environment variables from a .env to react native
 ## Installation
 
 ```sh
-$ npm install react-native-expand-dotenv
+$ npm install --save-dev react-native-expand-dotenv
 ```
 
 ## Usage
