@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-expand-dotenv",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Load npm & environment variables from .env",
   "author": {
     "name": "egislook"
