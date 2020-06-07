@@ -9,11 +9,6 @@
   "dependencies": {
     "dotenv": "^2.0.0"
   },
-  "devDependencies": {
-    "babel-core": "^6.14.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
-    "babel-runtime": "^5.0.0"
-  },
   "keywords": [
     "dotenv",
     "babel-plugin",
