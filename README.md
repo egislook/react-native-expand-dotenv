@@ -14,7 +14,10 @@ $ npm install react-native-expand-dotenv
 
 ```json
 {
-  "plugins": ["react-native-expend-dotenv"]
+  "presets": [
+    "module:metro-react-native-babel-preset",
+    "module:react-native-expand-dotenv"
+  ]
 }
 ```
 
@@ -26,11 +29,15 @@ VERSION=$npm_package_version
 DOMAIN=https://example.domain
 ```
 
-In **any.js**
+In **index.js**
 
 ```js
-import { NAME, VERSION, DOMAIN } from "react-native-expand-dotenv"
-console.log({
-  NAME, VERSION, DOMAIN
-})
+import env, { NAME, VERSION, DOMAIN} from 'react-native-expand-dotenv'
+process.env = { ...process.env, ...env }
+
+console.log(process.env, { NAME, VERSION, DOMAIN })
 ```
+
+### Inspiration
+
+`react-native-dotenv`

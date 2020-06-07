@@ -4,7 +4,7 @@ module.exports = () => ({
   plugins: [
     [require('babel-plugin-expand-dotenv'), {
       replacedModuleName: 'react-native-expand-dotenv',
-      configDir: path.resolve(__dirname, "../../")
+      configDir: path.resolve(__dirname, '../../')
     }],
   ],
 });

@@ -7,7 +7,11 @@
   },
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-expand-dotenv": "0.0.1"
+    "babel-plugin-expand-dotenv": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egislook/react-native-expand-dotenv.git"
   },
   "keywords": [
     "dotenv",
