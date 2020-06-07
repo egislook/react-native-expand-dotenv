@@ -1,0 +1,27 @@
+{
+  "name": "react-native-expand-dotenv",
+  "version": "0.0.0",
+  "description": "Loads npm & environment variables from a .env to react native",
+  "author": {
+    "name": "egislook"
+  },
+  "main": "index.js",
+  "bundleDependencies": false,
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "path": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-runtime": "^5.0.0"
+  },
+  "description": "Load npm & environment variables from .env",
+  "keywords": [
+    "dotenv",
+    "babel-plugin",
+    "react-native",
+    "npm"
+  ],
+  "license": "MIT"
+}
