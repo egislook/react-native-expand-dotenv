@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-expand-dotenv": "0.0.2"
+    "babel-plugin-expand-dotenv": "0.0.3"
   },
   "repository": {
     "type": "git",
