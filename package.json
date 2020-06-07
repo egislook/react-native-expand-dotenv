@@ -1,6 +1,6 @@
 {
   "name": "react-native-expand-dotenv",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Load npm & environment variables from .env",
   "author": {
     "name": "egislook"
