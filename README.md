@@ -12,6 +12,7 @@ $ npm install --save-dev react-native-expand-dotenv
 
 **package.json / .babelrc**
 
+
 ```json
 {
   "presets": [
@@ -20,6 +21,7 @@ $ npm install --save-dev react-native-expand-dotenv
   ]
 }
 ```
+**if its monorepo please add `["module:react-native-expand-dotenv", { "dirname": "your_monorepo_package_directory_name"}]`**
 
 **.env**
 
