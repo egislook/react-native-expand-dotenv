@@ -1,0 +1,23 @@
+{
+  "name": "react-native-expand-dotenv",
+  "version": "0.0.8",
+  "description": "Load npm & environment variables from .env",
+  "author": {
+    "name": "egis"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-expand-dotenv": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egislook/react-native-expand-dotenv.git"
+  },
+  "keywords": [
+    "dotenv",
+    "babel-plugin",
+    "react-native",
+    "npm"
+  ],
+  "license": "MIT"
+}

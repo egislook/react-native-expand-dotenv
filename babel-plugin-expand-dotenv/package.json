@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-expand-dotenv",
+  "version": "0.0.3",
+  "description": "Load npm & environment variables from .env",
+  "author": {
+    "name": "egis"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  },
+  "keywords": [
+    "dotenv",
+    "babel-plugin",
+    "react-native",
+    "npm"
+  ],
+  "license": "MIT"
+}
